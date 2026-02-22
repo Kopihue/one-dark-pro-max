@@ -6,7 +6,7 @@ local palette = {
   -- ui
   border = "#212121",
   line_number = "#495162",
-  active_line_number = "#abb2bf",
+  active_line_number = "#CCD3DB",
   visual = "#252F38",
   search = "#d19a66",
 

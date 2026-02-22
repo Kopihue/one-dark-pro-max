@@ -36,6 +36,9 @@ local function get_groups(opts)
         Operator = { fg = palette.operator },
         Identifier = { fg = palette.variable },
 	Special = { fg = palette.type },
+	Statement = { fg = palette.keyword },
+	Title = { fg = palette.variable },
+	Directory = { fg = palette.variable },
 
         -- Tree-sitter general
         ["@comment"] = { fg = palette.comment, italic = opts.italic },
@@ -47,9 +50,9 @@ local function get_groups(opts)
         ["@operator"] = { fg = palette.operator },
         ["@variable"] = { fg = palette.variable },
 
-        -- Tree-sitter Rust ejemplo
-        ["@module.rust"] = { fg = palette.red },
-        ["@type.rust"] = { fg = palette.yellow },
+        -- Tree-sitter Rust
+        ["@module.rust"] = { fg = palette.variable },
+        ["@type.rust"] = { fg = palette.type },
     }
 
     return groups
