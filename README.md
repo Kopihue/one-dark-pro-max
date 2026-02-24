@@ -31,8 +31,7 @@ require("one-dark-pro-max").setup({
 ```
 
 # Note about lsp
-Lsp will highlight the words in the buffer if you don't deactivate that feature
-to deativate it put this in you init.lua
+Lsp will highlight the words in the buffer if you don't deactivate that feature, to deativate it put this in you init.lua
 ```lua
 -- disable lsp syntax highlighting
 vim.api.nvim_create_autocmd("LspAttach", {
