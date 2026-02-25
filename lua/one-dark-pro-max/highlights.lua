@@ -20,6 +20,7 @@ local function get_groups(opts)
         Normal = { fg = palette.fg, bg = bg_main },
         NormalFloat = { bg = bg_float },
 	StatusLine = { bg = bg_main },
+	FloatBorder = { bg = bg_main },
         CursorLineNr = { fg = palette.active_line_number },
         CursorLineNC = { fg = palette.active_line_number },
         LineNr = { fg = palette.line_number },
