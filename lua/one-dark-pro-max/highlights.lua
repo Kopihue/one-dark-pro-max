@@ -24,7 +24,7 @@ local function get_groups(opts)
         LineNr = { fg = palette.line_number },
         Visual = { bg = palette.visual },
         Search = { bg = palette.search },
-	Pmenu = { bg = bg_main },
+	PMenu = { bg = bg_main },
 
         -- Sintaxis normal
         Comment = { fg = palette.comment, italic = opts.italic },
