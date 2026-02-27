@@ -56,6 +56,9 @@ local function get_groups(opts)
         -- Tree-sitter Rust
         ["@module.rust"] = { fg = palette.variable },
         ["@type.rust"] = { fg = palette.type },
+
+	-- Tree-sitter Python
+	["@variable.builtin.python"] = { fg = palette.variable },
     }
 
     return groups
