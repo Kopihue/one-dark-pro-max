@@ -65,6 +65,7 @@ local function get_groups(opts)
 	["@tag.attribute.html"] = { fg = palette.constant },
 	["@tag.delimiter.html"] = { fg = palette.operator },
 	["@constant.html"] = { fg = palette.variable },
+	["@markup.heading.html"] = { fg = palette.type },
     }
 
     return groups
