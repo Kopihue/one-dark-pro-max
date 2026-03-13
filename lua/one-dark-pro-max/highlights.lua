@@ -59,6 +59,10 @@ local function get_groups(opts)
 
 	-- Tree-sitter Python
 	["@variable.builtin.python"] = { fg = palette.variable },
+
+	-- Tree-sitter html
+	["@tag.html"] = { fg = palette.variable },
+	["@tag.attribute.html"] = { fg = palette.func },
     }
 
     return groups
