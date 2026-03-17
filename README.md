@@ -1,5 +1,4 @@
-# One-Dark-Pro-Max Colorscheme
-## A clon of Zed editor one-dark-pro-max colorscheme for neovim
+# Zed Editor - One-Dark-Pro-Max Colorscheme 🎨
 
 # Installation
 ### Example using Lazy
