@@ -1,4 +1,4 @@
-# Zed Editor - One-Dark-Pro-Max Colorscheme 🎨
+# One-Dark-Pro-Max Colorscheme 🎨
 
 # Installation
 ### Example using Lazy
@@ -29,6 +29,7 @@ require("one-dark-pro-max").setup({
 })
 ```
 
+___
 # Note about lsp
 Lsp will highlight the words in the buffer if you don't deactivate that feature, to deativate it put this in you init.lua
 ```lua
